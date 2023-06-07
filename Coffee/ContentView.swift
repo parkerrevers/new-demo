@@ -1,21 +1,25 @@
-//
-//  ContentView.swift
-//  Coffee
-//
-//  Created by Parker Revers on 5/31/23.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isOnboardingComplete = true
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        if isOnboardingComplete {
+            TabView {
+                MainScreenView()
+                    .tabItem {
+                        Image(systemName: "house.fill")
+                        Text("Home")
+                    }
+                RewardsScreenView()
+                    .tabItem {
+                        Image(systemName: "star.fill")
+                        Text("Rewards")
+                    }
+            }
+        } else {
+            OnboardingView(isOnboardingComplete: $isOnboardingComplete)
         }
-        .padding()
     }
 }
 

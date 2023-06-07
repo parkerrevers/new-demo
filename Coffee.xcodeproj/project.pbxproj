@@ -14,6 +14,27 @@
 		9009399F2A27ECEE000254BF /* CoffeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9009399E2A27ECEE000254BF /* CoffeeTests.swift */; };
 		900939A92A27ECEE000254BF /* CoffeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900939A82A27ECEE000254BF /* CoffeeUITests.swift */; };
 		900939AB2A27ECEE000254BF /* CoffeeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900939AA2A27ECEE000254BF /* CoffeeUITestsLaunchTests.swift */; };
+		900939B82A27EED6000254BF /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900939B72A27EED6000254BF /* Models.swift */; };
+		900939BA2A27EF59000254BF /* DealCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900939B92A27EF59000254BF /* DealCardView.swift */; };
+		900939BE2A27EFFF000254BF /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900939BD2A27EFFF000254BF /* MainScreenView.swift */; };
+		900939C02A27F101000254BF /* DealFullPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900939BF2A27F101000254BF /* DealFullPageView.swift */; };
+		9050FA032A2E785A00EE51C0 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9050FA022A2E785A00EE51C0 /* QRCodeView.swift */; };
+		90C692732A27F30A00971B07 /* RewardsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C692722A27F30A00971B07 /* RewardsScreenView.swift */; };
+		90C692752A2830E400971B07 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C692742A2830E400971B07 /* OnboardingView.swift */; };
+		90C692772A28327B00971B07 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C692762A28327B00971B07 /* ProfileView.swift */; };
+		90C692792A28346100971B07 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C692782A28346100971B07 /* SettingsView.swift */; };
+		90C6927B2A2840BE00971B07 /* RewardCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C6927A2A2840BE00971B07 /* RewardCardView.swift */; };
+		90C6927D2A28EA3A00971B07 /* EditableProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C6927C2A28EA3A00971B07 /* EditableProfileView.swift */; };
+		90C692812A293CE800971B07 /* DealDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C692802A293CE800971B07 /* DealDatabase.swift */; };
+		90C692832A2961C100971B07 /* UserProfileDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C692822A2961C100971B07 /* UserProfileDatabase.swift */; };
+		90C692872A296A9700971B07 /* RewardsDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C692862A296A9700971B07 /* RewardsDatabase.swift */; };
+		90C692892A2CFF7A00971B07 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C692882A2CFF7A00971B07 /* Color+Extension.swift */; };
+		90C6928B2A2D30F500971B07 /* ShareScreenModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C6928A2A2D30F500971B07 /* ShareScreenModal.swift */; };
+		90C6928D2A2E234B00971B07 /* FlashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C6928C2A2E234B00971B07 /* FlashView.swift */; };
+		90C6928F2A2E280A00971B07 /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C6928E2A2E280A00971B07 /* ShareButton.swift */; };
+		90E098862A2E9F1200C3552F /* PageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E098852A2E9F1200C3552F /* PageIndicator.swift */; };
+		90E0988A2A2F76FA00C3552F /* RewardFullPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E098892A2F76FA00C3552F /* RewardFullPageView.swift */; };
+		90E0988C2A2FBC4700C3552F /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E0988B2A2FBC4700C3552F /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +65,27 @@
 		900939A42A27ECEE000254BF /* CoffeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		900939A82A27ECEE000254BF /* CoffeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeUITests.swift; sourceTree = "<group>"; };
 		900939AA2A27ECEE000254BF /* CoffeeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		900939B72A27EED6000254BF /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		900939B92A27EF59000254BF /* DealCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealCardView.swift; sourceTree = "<group>"; };
+		900939BD2A27EFFF000254BF /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		900939BF2A27F101000254BF /* DealFullPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealFullPageView.swift; sourceTree = "<group>"; };
+		9050FA022A2E785A00EE51C0 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		90C692722A27F30A00971B07 /* RewardsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsScreenView.swift; sourceTree = "<group>"; };
+		90C692742A2830E400971B07 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		90C692762A28327B00971B07 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		90C692782A28346100971B07 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		90C6927A2A2840BE00971B07 /* RewardCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardCardView.swift; sourceTree = "<group>"; };
+		90C6927C2A28EA3A00971B07 /* EditableProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableProfileView.swift; sourceTree = "<group>"; };
+		90C692802A293CE800971B07 /* DealDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealDatabase.swift; sourceTree = "<group>"; };
+		90C692822A2961C100971B07 /* UserProfileDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileDatabase.swift; sourceTree = "<group>"; };
+		90C692862A296A9700971B07 /* RewardsDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsDatabase.swift; sourceTree = "<group>"; };
+		90C692882A2CFF7A00971B07 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		90C6928A2A2D30F500971B07 /* ShareScreenModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareScreenModal.swift; sourceTree = "<group>"; };
+		90C6928C2A2E234B00971B07 /* FlashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashView.swift; sourceTree = "<group>"; };
+		90C6928E2A2E280A00971B07 /* ShareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareButton.swift; sourceTree = "<group>"; };
+		90E098852A2E9F1200C3552F /* PageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIndicator.swift; sourceTree = "<group>"; };
+		90E098892A2F76FA00C3552F /* RewardFullPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardFullPageView.swift; sourceTree = "<group>"; };
+		90E0988B2A2FBC4700C3552F /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,20 +136,32 @@
 		9009398C2A27ECEC000254BF /* Coffee */ = {
 			isa = PBXGroup;
 			children = (
+				900939C42A27F228000254BF /* Preview Content */,
 				9009398D2A27ECEC000254BF /* CoffeeApp.swift */,
+				90C692882A2CFF7A00971B07 /* Color+Extension.swift */,
 				9009398F2A27ECEC000254BF /* ContentView.swift */,
-				900939912A27ECEE000254BF /* Assets.xcassets */,
-				900939932A27ECEE000254BF /* Preview Content */,
+				900939B92A27EF59000254BF /* DealCardView.swift */,
+				90C692802A293CE800971B07 /* DealDatabase.swift */,
+				900939BF2A27F101000254BF /* DealFullPageView.swift */,
+				90C6927C2A28EA3A00971B07 /* EditableProfileView.swift */,
+				90C6928C2A2E234B00971B07 /* FlashView.swift */,
+				90E0988B2A2FBC4700C3552F /* HeaderView.swift */,
+				900939BD2A27EFFF000254BF /* MainScreenView.swift */,
+				900939B72A27EED6000254BF /* Models.swift */,
+				90C692742A2830E400971B07 /* OnboardingView.swift */,
+				90E098852A2E9F1200C3552F /* PageIndicator.swift */,
+				90C692762A28327B00971B07 /* ProfileView.swift */,
+				90C6927A2A2840BE00971B07 /* RewardCardView.swift */,
+				90C692862A296A9700971B07 /* RewardsDatabase.swift */,
+				90E098892A2F76FA00C3552F /* RewardFullPageView.swift */,
+				90C692722A27F30A00971B07 /* RewardsScreenView.swift */,
+				90C692782A28346100971B07 /* SettingsView.swift */,
+				90C6928E2A2E280A00971B07 /* ShareButton.swift */,
+				90C6928A2A2D30F500971B07 /* ShareScreenModal.swift */,
+				90C692822A2961C100971B07 /* UserProfileDatabase.swift */,
+				9050FA022A2E785A00EE51C0 /* QRCodeView.swift */,
 			);
 			path = Coffee;
-			sourceTree = "<group>";
-		};
-		900939932A27ECEE000254BF /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				900939942A27ECEE000254BF /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		9009399D2A27ECEE000254BF /* CoffeeTests */ = {
@@ -125,6 +179,15 @@
 				900939AA2A27ECEE000254BF /* CoffeeUITestsLaunchTests.swift */,
 			);
 			path = CoffeeUITests;
+			sourceTree = "<group>";
+		};
+		900939C42A27F228000254BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				900939912A27ECEE000254BF /* Assets.xcassets */,
+				900939942A27ECEE000254BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +320,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				900939B82A27EED6000254BF /* Models.swift in Sources */,
+				90E0988A2A2F76FA00C3552F /* RewardFullPageView.swift in Sources */,
+				90C692772A28327B00971B07 /* ProfileView.swift in Sources */,
+				900939BE2A27EFFF000254BF /* MainScreenView.swift in Sources */,
+				90C692752A2830E400971B07 /* OnboardingView.swift in Sources */,
 				900939902A27ECEC000254BF /* ContentView.swift in Sources */,
+				90C692832A2961C100971B07 /* UserProfileDatabase.swift in Sources */,
+				900939BA2A27EF59000254BF /* DealCardView.swift in Sources */,
+				90C692892A2CFF7A00971B07 /* Color+Extension.swift in Sources */,
+				90C6927D2A28EA3A00971B07 /* EditableProfileView.swift in Sources */,
+				90C692732A27F30A00971B07 /* RewardsScreenView.swift in Sources */,
+				900939C02A27F101000254BF /* DealFullPageView.swift in Sources */,
+				90C692812A293CE800971B07 /* DealDatabase.swift in Sources */,
+				9050FA032A2E785A00EE51C0 /* QRCodeView.swift in Sources */,
+				90C6927B2A2840BE00971B07 /* RewardCardView.swift in Sources */,
+				90C692872A296A9700971B07 /* RewardsDatabase.swift in Sources */,
 				9009398E2A27ECEC000254BF /* CoffeeApp.swift in Sources */,
+				90C6928D2A2E234B00971B07 /* FlashView.swift in Sources */,
+				90C6928B2A2D30F500971B07 /* ShareScreenModal.swift in Sources */,
+				90C692792A28346100971B07 /* SettingsView.swift in Sources */,
+				90E098862A2E9F1200C3552F /* PageIndicator.swift in Sources */,
+				90E0988C2A2FBC4700C3552F /* HeaderView.swift in Sources */,
+				90C6928F2A2E280A00971B07 /* ShareButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,12 +498,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Coffee/Preview Content\"";
 				DEVELOPMENT_TEAM = CQ27VXKYR3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Friends & Family - demo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -432,9 +518,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = friendsandfamily.app.Coffee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -443,12 +532,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Coffee/Preview Content\"";
 				DEVELOPMENT_TEAM = CQ27VXKYR3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Friends & Family - demo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -461,9 +552,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = friendsandfamily.app.Coffee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
